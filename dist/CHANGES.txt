@@ -1,5 +1,35 @@
 CHANGES
 
+1.0.1 (July 2, 2019)
+- Move repo and module paths to github.com/caddyserver/caddy
+- New third-party plugin: pubsub
+- gzip: Automatically compress .wasm files
+- tls: Clean up locks from ACME operations on soft exit
+- tls: Deprecate 'max_certs' (use 'ask' instead)
+- tls: Improvements to on-demand TLS
+- Several other bug fixes
+
+
+1.0.0 (April 24, 2019)
+- Minor internal/linting improvements
+- EULA no longer applies
+- Backwards compatibility goal (see project repo)
+
+
+1.0.0-beta2 (April 20, 2019)
+- Continue migration to Go modules
+- Eliminate need for special build script
+- Internal changes for better compatibility
+
+
+1.0.0-beta1 (April 9, 2019)
+- Major internal changes (Go modules & remove vendor)
+- Rename -env flag to -envfile
+- New -env flag to print the environment
+- New 'dyndns' directive
+- proxy: Manipulate headers using regular expressions
+- A few bug fixes
+
 
 0.11.5 (March 4, 2019)
 - TLS 1.3
